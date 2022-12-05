@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100;
+    background: black;   
+    font-family: roboto;
+}
+.post-instagram{
+    position: relative;
+    width: 400px;
+    height: 480px;
+    background: white;
+    color: black;
+    
+}
+
+.head-left {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 10px;
+    position: relative;
+    align-items: center;
+    
+}
+h4{
+    margin-left: 2px;
+}
+ .post-instagram .post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.icono{
+    transform: scale(1.7);
+    margin-right: 10px;
+    color: black;
+    
+}
+.head-right{
+    transform: scale(1.5);
+}
+ 
+.paisaje{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+.post-body{ 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: black;
+}
+.iconos{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px; 
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+}
+.texto p:first-child{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.texto p:last-child{
+    color:black;
+    font-size: 15px;
+    text-align: justify;
+}
